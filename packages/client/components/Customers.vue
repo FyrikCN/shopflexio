@@ -10,11 +10,6 @@
         <img :src="getImgUrl(item + 7)" alt="">
       </div>
     </div>
-    <div class="flex items-center container">
-      <div v-for="item in 4" :key="item + 7" class="max-w-3xl">
-        <img :src="getImgUrl(item + 14)" alt="">
-      </div>
-    </div>
   </div>
 </template>
 

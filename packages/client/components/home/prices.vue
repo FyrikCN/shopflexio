@@ -47,7 +47,6 @@ export default {
           "Unlimited triggers",
           "Unlimited actions",
           "10 Contacts",
-          "100 Email Sent",
           "1 Connected Shop",
         ]
       },
