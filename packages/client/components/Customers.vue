@@ -1,7 +1,7 @@
 <template>
   <div class="mb-16 max-w-6xl m-auto bg-white">
     <div class="flex items-center container">
-      <div v-for="item in 7" :key="item" class="max-w-3xl">
+      <div v-for="item in 6" :key="item" class="max-w-3xl">
         <img :src="getImgUrl(item)" alt="">
       </div>
     </div>
