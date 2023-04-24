@@ -46,7 +46,9 @@ export default defineComponent({
     })
 
     const list = computed(() => {
+      
       let res = blogData.value?.list || []
+      console.log('blog_list',res);
       return res.sort((a, b) => {
         if (a.order == b.order) {
           return a.updated_time - b.updated_time
