@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/blogs/16686646fsda61038_699", {data:[{}],fetch:{},mutations:[]});
