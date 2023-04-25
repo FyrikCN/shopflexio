@@ -1,0 +1,51 @@
+[
+  {
+    "name": "blogs",
+    "path": "/blogs",
+    "component": "D:\\\\coding\\\\front-end\\\\GUMI\\\\shopflexio\\\\packages\\\\client\\\\pages\\\\blogs\\\\index.vue",
+    "chunkName": "pages/blogs/index",
+    "_name": "_60007a05"
+  },
+  {
+    "name": "book",
+    "path": "/book",
+    "component": "D:\\\\coding\\\\front-end\\\\GUMI\\\\shopflexio\\\\packages\\\\client\\\\pages\\\\book.vue",
+    "chunkName": "pages/book",
+    "_name": "_8e5b8c66"
+  },
+  {
+    "name": "blogs-blog1",
+    "path": "/blogs/blog1",
+    "component": "D:\\\\coding\\\\front-end\\\\GUMI\\\\shopflexio\\\\packages\\\\client\\\\pages\\\\blogs\\\\blog1.vue",
+    "chunkName": "pages/blogs/blog1",
+    "_name": "_707660fc"
+  },
+  {
+    "name": "blogs-blog2",
+    "path": "/blogs/blog2",
+    "component": "D:\\\\coding\\\\front-end\\\\GUMI\\\\shopflexio\\\\packages\\\\client\\\\pages\\\\blogs\\\\blog2.vue",
+    "chunkName": "pages/blogs/blog2",
+    "_name": "_705a31fa"
+  },
+  {
+    "name": "blogs-blog3",
+    "path": "/blogs/blog3",
+    "component": "D:\\\\coding\\\\front-end\\\\GUMI\\\\shopflexio\\\\packages\\\\client\\\\pages\\\\blogs\\\\blog3.vue",
+    "chunkName": "pages/blogs/blog3",
+    "_name": "_703e02f8"
+  },
+  {
+    "name": "blogs-id",
+    "path": "/blogs/:id",
+    "component": "D:\\\\coding\\\\front-end\\\\GUMI\\\\shopflexio\\\\packages\\\\client\\\\pages\\\\blogs\\\\_id.vue",
+    "chunkName": "pages/blogs/_id",
+    "_name": "_1a018ca6"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\coding\\\\front-end\\\\GUMI\\\\shopflexio\\\\packages\\\\client\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_897959c4"
+  }
+]
