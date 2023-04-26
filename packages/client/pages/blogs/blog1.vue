@@ -1,5 +1,5 @@
 <template>
-  <div style="padding-left: 600px;padding-right: 600px; padding-top: 130px;">
+  <div class="blogContainer">
     <article id="7f4b5113-b570-46d2-838e-1a6a61187831" class="page serif">
       <header><img class="page-cover-image"
           src="https://images.unsplash.com/photo-1561715276-a2d087060f1d?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb"
@@ -10,10 +10,10 @@
       </header>
       <div class="page-body">
         <div id="f46a125e-f6a8-40da-a4a4-27dde731e2b0" class="column-list">
-          <div id="7af502e8-57eb-46a4-97c5-e34d86c067e1" style="width:43.75%" class="column">
+          <div id="7af502e8-57eb-46a4-97c5-e34d86c067e1" class="column">
             <p id="f0297a25-4e11-448e-b05a-d1a8f338149d" class="block-color-gray">Apr 12, 2023</p>
           </div>
-          <div id="5ecac186-0d54-41cd-a1fa-ab493fd1e12f" style="width:56.24999999999998%" class="column">
+          <div id="5ecac186-0d54-41cd-a1fa-ab493fd1e12f"  class="column">
             <p id="daf3244e-99eb-4863-b238-1e275a83762f" class="block-color-gray">  <a
                 href="https://blogs.getty.edu/iris/author/lhubber/">SANDY KONG</a></p>
           </div>
@@ -992,5 +992,8 @@ blockquote {
 
 p {
   font-size: 20px;
+}
+.blogContainer{
+  padding-left: 600px;padding-right: 600px; padding-top: 130px; padding-bottom: 130px;
 }
 </style>

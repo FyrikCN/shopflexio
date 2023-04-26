@@ -1,5 +1,5 @@
 <template>
-  <div style="padding-left: 600px;padding-right: 600px; padding-top: 130px;">
+  <div class="blogContainer">
     <article id="9e5223e4-3643-4838-b7b8-48f5f4fc2d72" class="page serif">
       <header><img class="page-cover-image"
           src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb"
@@ -9,12 +9,13 @@
           Store Apart</h1>
       </header>
       <div class="page-body">
-        <div id="fc37021a-3663-488a-82df-c69e382ecd65" class="column-list">
-          <div id="c2f68834-e0fc-4545-be74-5cfb4d654703" style="width:43.75%" class="column">
-            <p id="b27f8a33-0f60-4235-a5af-ce1ed52d9a39" class="block-color-gray">Apr 24, 2023</p>
+        <div id="f46a125e-f6a8-40da-a4a4-27dde731e2b0" class="column-list">
+          <div id="7af502e8-57eb-46a4-97c5-e34d86c067e1" class="column">
+            <p id="f0297a25-4e11-448e-b05a-d1a8f338149d" class="block-color-gray">Apr 12, 2023</p>
           </div>
-          <div id="a2bd725c-4486-464a-a86e-ff46958bc7bb" style="width:56.24999999999998%" class="column">
-            <p id="99374d0f-75c1-4948-b329-f8ae0749dc32" class="block-color-gray"> SANDY KONG</p>
+          <div id="5ecac186-0d54-41cd-a1fa-ab493fd1e12f"  class="column">
+            <p id="daf3244e-99eb-4863-b238-1e275a83762f" class="block-color-gray">  <a
+                href="https://blogs.getty.edu/iris/author/lhubber/">SANDY KONG</a></p>
           </div>
         </div>
         <h1 id="74836e8b-27cd-4581-bd8e-5a1d1ed9a16f" class="">Why Product Titles and Descriptions are Crucial for
@@ -990,5 +991,9 @@ blockquote {
 
 p {
   font-size: 20px;
+}
+
+.blogContainer{
+  padding-left: 600px;padding-right: 600px; padding-top: 130px; padding-bottom: 130px;
 }
 </style>

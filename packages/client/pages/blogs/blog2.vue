@@ -1,5 +1,5 @@
 <template>
-  <div style="padding-left: 600px;padding-right: 600px; padding-top: 130px;">
+  <div class="blogContainer">
     <article id="4df5c00b-7194-4a62-98e6-c9547fe55d4e" class="page serif">
       <header><img class="page-cover-image"
           src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb"
@@ -9,12 +9,13 @@
         </h1>
       </header>
       <div class="page-body">
-        <div id="77ab3e62-ed5c-4dc2-a840-320f45aa8d7c" class="column-list">
-          <div id="ca3a1e45-7f86-4517-af50-e15b2b269f9b" style="width:43.75%" class="column">
-            <p id="f8782201-6e1b-468c-99e0-7732749e7a06" class="block-color-gray">Apr 24, 2022</p>
+        <div id="f46a125e-f6a8-40da-a4a4-27dde731e2b0" class="column-list">
+          <div id="7af502e8-57eb-46a4-97c5-e34d86c067e1" class="column">
+            <p id="f0297a25-4e11-448e-b05a-d1a8f338149d" class="block-color-gray">Apr 12, 2023</p>
           </div>
-          <div id="5bb13b6f-9f58-4f17-8038-9f28fc2a391e" style="width:56.24999999999998%" class="column">
-            <p id="f4e9be42-e71e-427f-953e-ad9952fd7ebe" class="block-color-gray"> Sandy KONG</p>
+          <div id="5ecac186-0d54-41cd-a1fa-ab493fd1e12f"  class="column">
+            <p id="daf3244e-99eb-4863-b238-1e275a83762f" class="block-color-gray">  <a
+                href="https://blogs.getty.edu/iris/author/lhubber/">SANDY KONG</a></p>
           </div>
         </div>
         <p id="c05e2a41-f575-4408-896b-9d8e93800bb0" class="block-color-gray">Shopify is a popular platform for
@@ -988,5 +989,8 @@ blockquote {
 p {
   font-size: 20px;
   color: #000;
+}
+.blogContainer{
+  padding-left: 600px;padding-right: 600px; padding-top: 130px; padding-bottom: 130px;
 }
 </style>

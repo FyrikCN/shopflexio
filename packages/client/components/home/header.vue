@@ -53,7 +53,9 @@
         <div class="flex-grow text-lg">
           <dl class="flex justify-around link">
             <dd v-for="link of links" :key="link">
-              <a :href="`#${link}`">
+              <nuxt-link v-if="link==='Blog'" to="/blogs">Blog</nuxt-link>
+              
+              <a v-else :href="`#${link}`">
                 {{ link }}
               </a>
             </dd>
@@ -102,8 +104,7 @@ import { defineComponent } from '@nuxtjs/composition-api'
 export default defineComponent({
   name: 'Header',
   setup() {
-    // const links = ['Overview', 'Features', 'Use Cases', 'Customers', 'Pricing', 'Blog']
-    const links = ['Overview', 'Features', 'Use Cases', 'Customers', 'Pricing']
+    const links = ['Overview', 'Features', 'Use Cases', 'Customers', 'Pricing', 'Blog']
     return {
       scrollY: 0,
       color: '',
