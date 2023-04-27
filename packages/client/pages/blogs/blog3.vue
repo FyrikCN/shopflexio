@@ -1,5 +1,5 @@
 <template>
-  <div class="blogContainer">
+  <div class="px-96 py-32">
     <article id="9e5223e4-3643-4838-b7b8-48f5f4fc2d72" class="page serif">
       <header><img class="page-cover-image"
           src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb"
@@ -15,7 +15,7 @@
           </div>
           <div id="5ecac186-0d54-41cd-a1fa-ab493fd1e12f"  class="column">
             <p id="daf3244e-99eb-4863-b238-1e275a83762f" class="block-color-gray">  <a
-                href="https://blogs.getty.edu/iris/author/lhubber/">SANDY KONG</a></p>
+              >SANDY KONG</a></p>
           </div>
         </div>
         <h1 id="74836e8b-27cd-4581-bd8e-5a1d1ed9a16f" class="">Why Product Titles and Descriptions are Crucial for
@@ -991,9 +991,5 @@ blockquote {
 
 p {
   font-size: 20px;
-}
-
-.blogContainer{
-  padding-left: 600px;padding-right: 600px; padding-top: 130px; padding-bottom: 130px;
 }
 </style>

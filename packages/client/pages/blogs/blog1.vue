@@ -1,5 +1,5 @@
 <template>
-  <div class="blogContainer">
+  <div class="px-96 py-32">
     <article id="7f4b5113-b570-46d2-838e-1a6a61187831" class="page serif">
       <header><img class="page-cover-image"
           src="https://images.unsplash.com/photo-1561715276-a2d087060f1d?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb"
@@ -15,7 +15,7 @@
           </div>
           <div id="5ecac186-0d54-41cd-a1fa-ab493fd1e12f"  class="column">
             <p id="daf3244e-99eb-4863-b238-1e275a83762f" class="block-color-gray">  <a
-                href="https://blogs.getty.edu/iris/author/lhubber/">SANDY KONG</a></p>
+                >SANDY KONG</a></p>
           </div>
         </div>
         <p id="b2de3923-295f-4dff-83dc-303b2e2d3c8f" class="block-color-gray"><strong>Abstract</strong></p>
@@ -992,8 +992,5 @@ blockquote {
 
 p {
   font-size: 20px;
-}
-.blogContainer{
-  padding-left: 600px;padding-right: 600px; padding-top: 130px; padding-bottom: 130px;
 }
 </style>

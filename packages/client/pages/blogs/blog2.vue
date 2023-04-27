@@ -1,5 +1,5 @@
 <template>
-  <div class="blogContainer">
+  <div class="px-96 py-32">
     <article id="4df5c00b-7194-4a62-98e6-c9547fe55d4e" class="page serif">
       <header><img class="page-cover-image"
           src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb"
@@ -15,7 +15,7 @@
           </div>
           <div id="5ecac186-0d54-41cd-a1fa-ab493fd1e12f"  class="column">
             <p id="daf3244e-99eb-4863-b238-1e275a83762f" class="block-color-gray">  <a
-                href="https://blogs.getty.edu/iris/author/lhubber/">SANDY KONG</a></p>
+                >SANDY KONG</a></p>
           </div>
         </div>
         <p id="c05e2a41-f575-4408-896b-9d8e93800bb0" class="block-color-gray">Shopify is a popular platform for
@@ -989,8 +989,5 @@ blockquote {
 p {
   font-size: 20px;
   color: #000;
-}
-.blogContainer{
-  padding-left: 600px;padding-right: 600px; padding-top: 130px; padding-bottom: 130px;
 }
 </style>
