@@ -12,7 +12,7 @@
           <el-image style="min-height: 200px;"
             src="https://images.unsplash.com/photo-1561715276-a2d087060f1d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800" />
           <h5 class="font-bold text-xl mb-2" style="color: #181818;">
-            Maximizing Your Shopify Store's Potential: The Benefits of Adding a Blog Section
+            Crafting Your Brand's Story with WorkGPT: A Guide to Authentic and Compelling Narrative Creation
           </h5>
           <time class="text-gray-400">
             Apr 24, 2022
@@ -32,7 +32,7 @@
           <el-image style="min-height: 200px;"
             src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800" />
           <h5 class="font-bold text-xl mb-2" style="color: #181818;">
-            Crafting Your Brand's Story with WorkGPT: A Guide to Authentic and Compelling Narrative Creation
+            Maximizing Your Shopify Store's Potential: The Benefits of Adding a Blog Section
           </h5>
           <time class="text-gray-400">
             Apr 12, 2023
