@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full overflow-hidden pt-4">
-    <h2 class="h2 max-w-6xl m-auto mb-16 sectionTitle">Pricing</h2>
-    <div class="flex mb-16 max-w-6xl m-auto justify-between">
+  <div class="w-full pt-4 overflow-hidden">
+    <h2 class="max-w-6xl m-auto mb-16 h2 sectionTitle">Pricing</h2>
+    <div class="flex justify-between max-w-6xl m-auto mb-16">
       <div
 v-for="{ id, title, price, subTitle, conditions } in options" :key="id"
         class="priceBox w-12/3" :class="{ 'selectedPrice': id == index }" @click="index = id
@@ -10,7 +10,7 @@ v-for="{ id, title, price, subTitle, conditions } in options" :key="id"
         <p class="subtitle">{{ subTitle }}</p>
         <p class="price">{{ price }}</p>
         <p class="month" style="margin-bottom: 43px;">/month</p>
-        <dl class="conditions text-left">
+        <dl class="text-left conditions">
           <dd v-for="item in conditions" :key="item" class="flex items-center">
             <svg class="mr-1" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -39,60 +39,59 @@ export default {
       {
         id: 1,
         title: "Free",
-        subTitle: "Try it out! Integrate fast and explore features.",
+        subTitle: "Dip your toes in automation, we won't charge a dime.",
         price: "$0",
         conditions: [
-          "10 Active Workflows",
-          "1, 000 runs / month",
-          "Unlimited triggers",
-          "Unlimited actions",
+          "2 active workflows",
+          "50 runs / month",
           "10 Contacts",
-          "1 Connected Shop",
+          "1 Connected shop",
+          "Chat & Email support"
         ]
       },
       {
         id: 2,
         title: "Basic",
-        subTitle: "Try our automation for the first time",
+        subTitle: "All essential features for growing buds.",
         price: "$9.99",
         conditions: [
-          "100 Active Workflows",
+          "5 active workflows",
           "5,000 runs / month",
-          "Unlimited triggers",
-          "Unlimited actions",
           "1,000 Contacts",
-          "200 built-in Email sent",
-          "1 Connected Shop",
+          "200 Email quota",
+          "1 Connected shop",
+          "Workflow set up service",
+          "Chat & Email support",
         ]
       },
       {
         id: 3,
         title: "Professional",
-        subTitle: "Enhance the team efficiency with extra automation workflows",
+        subTitle: "Level up with extra quota, perfect for scaling up.",
         price: "$39.99",
         conditions: [
-          "Unlimited Active Workflows",
-          "100,000 runs / month",
-          "Unlimited triggers",
-          "Unlimited actions",
+          "20 active workflows",
+          "20,000 runs / month",
           "25,000 Contacts",
-          "500 Email Sent",
-          "2 Connected Shop",
+          "500 Email quota",
+          "2 Connected shop",
+          "Workflow set up service",
+          "Chat & Email support",
         ]
       },
       {
         id: 4,
         title: "Enterprise",
-        subTitle: "Lower operational cost and maximize the automation potential.",
+        subTitle: "Unlimited quota & dedicated support tailored for the big leagues.",
         price: "$139.99",
         conditions: [
-          "Unlimited Active Workflows",
-          "Unlimited runs",
-          "Unlimited triggers",
-          "Unlimited actions",
+          "Unlimited active workflows",
+          "Unlimited runs / month",
           "50,000 Contacts",
-          "1,000 Email Sent",
-          "5 Connected Shops",
+          "1,000 Email quota",
+          "5 Connected shops",
+          "Workflow set up service",
+          "Dedicated customer support",
         ]
       },
     ]
